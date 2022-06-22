@@ -1,7 +1,7 @@
 import React from "react";
-import Header from "../components/Header";
-import Navbar from "../components/Navbar/Navbar";
-import { useToggle } from "../customHooks";
+import Header from "../../components/Header";
+import Navbar from "../../components/Navbar/Navbar";
+import { useToggle } from "../../customHooks";
 import "./Home.css";
 
 function Home({ children }) {
