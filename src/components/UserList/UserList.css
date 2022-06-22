@@ -1,0 +1,28 @@
+
+.list-header {
+  display: grid;
+  grid-template-columns: 1fr 4fr 3fr 3fr 2fr;
+  border-bottom: 1px solid #aaa;
+}
+
+.list-header--item {
+  font-weight: 500;
+}
+.list-header--item:not(:last-child) {
+  border-right: 1px solid #999;
+}
+
+.user-item {
+  grid-template-columns: 1fr 4fr 3fr 3fr 2fr;
+}
+
+.user-item:not(:last-child) {
+  border-bottom: 1px solid #aaa;
+}
+
+.user-item--batch {
+  height: 60px;
+}
+.user-item--batch:not(:last-child) {
+  border-right: 1px solid #999;
+}

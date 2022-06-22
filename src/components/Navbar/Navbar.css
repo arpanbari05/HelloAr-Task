@@ -1,0 +1,19 @@
+.navbar {
+  border-right: 1px solid #dcdcdc;
+  height: calc(100vh - 70px);
+}
+
+@media (max-width: 1024px) {
+  .navbar {
+    height: 100vh;
+  }
+}
+
+@media (max-width: 1024px) {
+  .open {
+    transform: translateX(0);
+  }
+  .close {
+    transform: translateX(-100%);
+  }
+}

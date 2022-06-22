@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.btn-tertiary {
+  background-color: #ffbb41 !important;
+  border-radius: 3px !important;
+}
+.btn-primary {
+  background-color: #57ca85 !important;
+  border-radius: 3px !important;
+}
+.btn-danger {
+  background-color: #ae3333 !important;
+  border-radius: 3px !important;
+}
+
