@@ -38,12 +38,14 @@ function Header({ onOpen }) {
           src={userImage}
           alt="user-logo"
         />
-        <p className="font-medium text-md">Arpan Bari</p>
-        <BsChevronDown />
+        <button className="flex items-center gap-2 font-medium text-md p-3 hover:bg-gray-200 rounded">
+          <span>Arpan Bari</span>
+          <BsChevronDown />
+        </button>
       </button>
       <button className="lg:hidden" onClick={onOpen}>
-          <HiMenu size={30} />
-        </button>
+        <HiMenu size={30} />
+      </button>
     </header>
   );
 }

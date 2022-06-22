@@ -1,5 +1,4 @@
 import { BrowserRouter, Redirect, Switch } from "react-router-dom";
-import "styled-components/macro";
 import { Route } from "react-router-dom";
 import Home from "./pages/Home/Home";
 import {

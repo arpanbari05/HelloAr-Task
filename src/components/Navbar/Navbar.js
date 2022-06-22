@@ -1,5 +1,4 @@
 import React from "react";
-import "styled-components/macro";
 import Link from "../Common/NavItem";
 import userImage from "../../assets/user.jpg";
 import { BsChevronDown } from "react-icons/bs";

@@ -62,7 +62,7 @@ function AddUserForm({ onClose }) {
 
   return (
     <form
-      className="grow p-4 lg:p-12 flex flex-col gap-8 items-start justify-start"
+      className="grow p-4 lg:p-12 flex flex-col gap-6 items-start justify-start"
       onSubmit={handleSubmit(handleAddUser)}
     >
       <h1 className="text-2xl font-bold">User Information</h1>

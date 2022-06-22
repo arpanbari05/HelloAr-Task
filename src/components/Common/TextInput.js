@@ -1,7 +1,7 @@
 function TextInput({ placeholder, label, error, register, ...props }) {
   return (
     <div className={`${error && "text-red-600"} w-full`}>
-      <p className="text-sm mb-2">{label}</p>
+      <p className="text-sm mb-2 text-black">{label}</p>
       <input
         className={`${
           error ? "border-red-600" : "border-gray-200"
