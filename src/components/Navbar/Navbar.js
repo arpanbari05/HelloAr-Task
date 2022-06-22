@@ -45,12 +45,7 @@ function Navbar({ open = false, onClose }) {
         }`}
       >
         <div className="lg:hidden w-full flex px-6 my-10 justify-between items-center">
-          <button
-            className="flex gap-2 items-center justify-center"
-            css={`
-              border-left: 1px solid #dcdcdc;
-            `}
-          >
+          <button className="flex gap-2 items-center justify-center">
             <img
               className="w-12 h-12 rounded-full object-contain"
               src={userImage}

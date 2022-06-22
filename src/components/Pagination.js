@@ -9,6 +9,7 @@ function Pagination({
   prevDisabled,
   handlePageChange,
 }) {
+  if (!pages.length) return <></>;
   return (
     <div className="flex gap-3 mx-auto lg:ml-auto lg:mr-0 items-center">
       <button

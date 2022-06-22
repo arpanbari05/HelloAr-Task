@@ -9,14 +9,20 @@ function UserList({ offset, curPage }) {
   return (
     <div className="text-[13px] lg:text-base w-[100%] border border-solid border-[#999]">
       <ListHeader />
-      {users.map((user) => (
-        <ListItem
-          name={user.name}
-          idx={user.idx}
-          role={user.role}
-          createdAt={user.createdAt}
-        />
-      ))}
+      {users?.length > 0 ? (
+        users.map((user) => (
+          <ListItem
+            name={user.name}
+            idx={user.idx}
+            role={user.role}
+            createdAt={user.createdAt}
+          />
+        ))
+      ) : (
+        <p className="font-medium font-base text-center py-4">
+          No Users found! Please add some to get started.
+        </p>
+      )}
     </div>
   );
 }

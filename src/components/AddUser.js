@@ -55,7 +55,7 @@ function AddUserForm({ onClose }) {
   const { addUser } = useUsers();
 
   const handleAddUser = (data) => {
-    addUser({ ...data, createdAt: Date.now() });
+    addUser({ ...data, createdAt: Date.now() - 1000 });
     reset();
     onClose();
   };
